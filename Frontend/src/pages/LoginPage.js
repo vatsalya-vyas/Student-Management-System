@@ -232,14 +232,14 @@ const LoginPage = ({ role }) => {
                                     <CircularProgress size={24} color="inherit" />
                                     : "Login"}
                             </LightPurpleButton>
-                            <Button
+                            {/* <Button
                                 fullWidth
                                 onClick={guestModeHandler}
                                 variant="outlined"
                                 sx={{ mt: 2, mb: 3, color: "#7f56da", borderColor: "#7f56da" }}
                             >
                                 Login as Guest
-                            </Button>
+                            </Button> */}
                             {role === "Admin" &&
                                 <Grid container>
                                     <Grid>
